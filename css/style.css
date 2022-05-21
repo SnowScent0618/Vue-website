@@ -91,6 +91,12 @@ body {
     color: white;
     text-decoration: none;
     font-size: 22px;
+    transition: 0.37s;
+}
+
+.links a:hover{
+    color: #8c52cd;
+    font-size: 30px;
 }
 
 i {
