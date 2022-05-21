@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: #202020;
+    color: #ffffff;
+    margin: 0;
+    font-size: 22px;
+    align-items: center;
+}
+
+#header {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.navbar {
+    font-size: 18px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.profile {
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0px auto;
+    display: block;
+    width: 50%;
+}
+
+
+.profile-body {
+    background: #2c3a47;
+    padding: 60px 40px;
+    margin: 0;
+}
+
+.profile-picture {
+    display: inline-block;
+    padding: 8px;
+    margin: auto;
+    background-size: 200% 200%;
+
+}
+
+.profile-picture img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.name {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.text {
+    font-size: 18px;
+    color: #e66767;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+i {
+    padding: 10px 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .profile {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        width: 100%;
+    }
+}
