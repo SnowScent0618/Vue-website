@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    font-family: 'Ubuntu';
 }
 
 body {
     background-color: #202020;
     color: #ffffff;
     margin: 0;
+    font-family: 'Ubuntu';
     font-size: 22px;
     align-items: center;
 }
@@ -45,9 +45,8 @@ body {
     overflow: hidden;
     margin: 0px auto;
     display: block;
-    width: 50%;
+    width: 40%;
 }
-
 
 .profile-body {
     background: #2c3a47;
@@ -60,7 +59,6 @@ body {
     padding: 8px;
     margin: auto;
     background-size: 200% 200%;
-
 }
 
 .profile-picture img {
@@ -82,14 +80,12 @@ body {
     color: #e66767;
 }
 
-
 .links {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
-
 
 .links a {
     color: white;
@@ -99,12 +95,6 @@ body {
 
 i {
     padding: 10px 10px;
-}
-
-@media screen and (max-width: 992px) {
-    .profile {
-        background-color: blue;
-    }
 }
 
 @media screen and (max-width: 600px) {
