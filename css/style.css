@@ -50,12 +50,15 @@ body {
   background-color: #fff;
   transform: scale(0);
 }
+
 .navbar a:hover {
   color: black;
 }
+
 .navbar a:hover::before {
   transform: scale(1);
 }
+
 .profile {
   text-align: center;
   border-radius: 8px;
@@ -127,5 +130,10 @@ i {
   .profile {
     width: 100%;
     transform: scale(0.9);
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
   }
 }
