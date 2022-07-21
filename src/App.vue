@@ -1,12 +1,26 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <NavBar />
   <router-view/>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+html{
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+  color: #ffffff;
+}
+
+body {
+  background-color: #202020;
+  margin: 0;
+  font-size: 22px;
+  align-items: center;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,16 +29,16 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
+
+<script>
+import NavBar from '@/components/Navbar.vue'
+
+export default {
+  name: 'App',
+  components: {
+    NavBar
+  }
+}
+
+</script>
