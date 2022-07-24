@@ -57,4 +57,11 @@ export default {
   transform: scale(1);
 }
 
+@media screen and (max-width: 600px) {
+    .navbar {
+      display: flex;
+      justify-content: center;
+  }
+}
+
 </style>
