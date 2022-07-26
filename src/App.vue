@@ -11,7 +11,6 @@ html{
 * {
   box-sizing: border-box;
   font-family: "Ubuntu";
-  color: #ffffff;
 }
 
 body {
