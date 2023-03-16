@@ -1,15 +1,15 @@
 <template>
-  <Heading message="About Me"/>
+  <div class="about">
+    <h1>This is an about page</h1>
+  </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import Heading from '@/components/Heading.vue'
-
-export default {
-  name: 'AboutView',
-  components: {
-    Heading
+<style>
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
   }
 }
-</script>
+</style>
